@@ -1,0 +1,59 @@
+@import "tailwindcss";
+.swiper-pagination {
+  position: relative !important;
+  margin-top: 25px;
+  bottom: 0 !important;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #d1d5db;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  width: 36px;
+  height: 10px;
+  border-radius: 999px;
+  background: #2563eb;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Swiper Pagination */
+.swiper-pagination {
+  position: relative !important;
+  margin-top: 25px;
+  bottom: 0 !important;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #d1d5db;
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  width: 36px;
+  height: 10px;
+  border-radius: 999px;
+  background: #2563eb;
+}
